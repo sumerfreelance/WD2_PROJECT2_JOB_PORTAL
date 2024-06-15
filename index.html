@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <h2>Filters</h2>
+            <form>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+                
+                <label for="type">Job Type:</label>
+                <select id="type" name="type">
+                    <option value="fulltime">Full-time</option>
+                    <option value="parttime">Part-time</option>
+                    <option value="contract">Contract</option>
+                </select>
+
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="tech">Tech</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="design">Design</option>
+                </select>
+
+                <button type="submit">Apply</button>
+            </form>
+        </aside>
+        <section>
+            <h2>Job Listings</h2>
+            <div class="job-listing">
+                <h3>Software Engineer</h3>
+                <p>Company: Tech Corp</p>
+                <p>Location: New York, NY</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-listing">
+                <h3>Marketing Specialist</h3>
+                <p>Company: Market Inc</p>
+                <p>Location: San Francisco, CA</p>
+                <button>Apply Now</button>
+            </div>
+            <div class="job-listing">
+                <h3>UI/UX Designer</h3>
+                <p>Company: Design Studio</p>
+                <p>Location: Austin, TX</p>
+                <button>Apply Now</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
